@@ -1,17 +1,10 @@
 <?xml version="1.0" ?>
 
 <config>
-	<tabs>
-		<hetnieuweweb translate="label">
-			<label>Het Nieuwe Web<![CDATA[<div style="display:inline-block; float:right; margin-right:5px;"><a href="http://www.hetnieuweweb.nl/" target="_blank" style="background: none;"><img src="http://www.hetnieuweweb.nl/magento/hetnieuweweb_admin_logo.png" width="20" height="20"/></a></div>]]></label>
-			<sort_order>150</sort_order>
-		</hetnieuweweb>
-	</tabs>
-	
 	<sections>
 		<customer_navigation translate="label">
-			<label>Customer Navigation</label>
-			<tab>hetnieuweweb</tab>
+			<label>Central do cliente</label>
+			<tab>customer</tab>
 			<frontend_type>text</frontend_type>
 			<sort_order>10</sort_order>
 			<show_in_default>1</show_in_default>
@@ -19,7 +12,7 @@
 			<show_in_store>1</show_in_store>
 			<groups>
 				<display translate="label">
-					<label>Display Links</label>
+					<label>Mostrar Links</label>
 					<frontend_type>text</frontend_type>
 					<sort_order>10</sort_order>
 					<show_in_default>1</show_in_default>
@@ -137,7 +130,7 @@
 					</fields>
 				</display>
 				<rename translate="label">
-					<label>Rename Links</label>
+					<label>Renomear Links</label>
 					<frontend_type>text</frontend_type>
 					<sort_order>20</sort_order>
 					<show_in_default>1</show_in_default>
